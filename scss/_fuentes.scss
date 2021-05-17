@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+
+body{
+	font-family: $font;
+	font-weight: $font-regular;
+	list-style: none;
+	text-decoration-style: none;
+	text-decoration: none;
+}
+.Menu{
+	font-family: $font;
+	font-weight: $font-regular;
+	color: white;
+	list-style: none;
+	text-decoration-style: none;
+	text-decoration: none;
+}
+.subti{
+	font-family: $font;
+	font-weight: $font-light;
+	font-size: 21px;
+	text-decoration-style: none;
+	text-decoration: none;
+}
+.subti2{
+	font-family: poppins;
+	font-weight: $font-regular;
+	font-size: 23px;
+	color: #ffff;
+	text-align: right;
+	margin-right: 30px;
+	justify-content: center;
+	align-content: center;
+
+}
+.subti3{
+	font-family: $font;
+	font-weight: $font-light;
+	font-size: 24px;
+	text-decoration: none;
+	color: #ffff;
+	text-align: right;
+	margin-right: 10px;
+}
+.subti4{
+	font-family: poppins;
+	font-weight: $font-regular;
+	font-size: 17px;
+	text-decoration: none;
+	color: #2C3C5C;
+	text-align: center;
+}	
+
+.bla{
+	font-family: $font;
+	font-weight: $font-thin;
+	list-style: none;
+	text-decoration-style: none;
+	text-decoration: none;
+}
+.type-bold{
+	font-family: $font;
+	font-weight: $font-bold;
+}
+.type-extra-bold{
+	font-family: $font;
+	font-weight: $font-extra-bold;
+}
+
+.container{ 
+	background-color: #296073;
+	height: 40px;
+	justify-content: center;
+	align-content:center;
+	text-align: right;
+	border-radius:2px;
+
+ }
+ .container2{ 
+	background-color: #296073;
+	height: 40px;
+	justify-content: center;
+	align-content:center;
+	text-align: right;
+	width: 90%;
+	border-radius:2px;
+}
+
+@media all and (min-width: 760px) 
+{		
+		#B1{
+			display: inline-block;
+			float:left;
+			margin-top: 10px;
+			margin-left: 10px;
+			h1{
+				font-family: 'Codystar';
+				color:#272B34;
+				font-size:33px;
+				transform: rotate(90deg);
+				text-transform: uppercase;
+
+			}
+		}
+}
+@media all and (max-width: 759px) 
+{		
+		#B1{
+			display: block;
+			float:center;
+			margin-top: 10px;
+			margin-botto: 30px;
+			h1{
+				font-family: 'Codystar';
+				color:#272B34;
+				font-size:23px;
+				transform: rotate(0deg);
+				text-transform: uppercase;
+
+			}
+		}
+}
+h2{
+				font-family: 'poppins';
+				color:#272B34;
+				font-size:20px;
+				margin-top: 50px;
+
+			}
+h3{
+				font-family: 'Codystar';
+				color:#272B34;
+				font-size:23px;
+				text-transform: uppercase;
+				margin-top: 50px;
+				margin-bottom: 50px;
+
+			}

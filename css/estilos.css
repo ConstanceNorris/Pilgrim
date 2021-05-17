@@ -1,0 +1,1480 @@
+@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,700;1,100;1,200&family=Shippori+Mincho+B1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Codystar&family=Poiret+One&family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,700;1,100;1,200&family=Shippori+Mincho+B1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Codystar&family=Poiret+One&family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,700;1,100;1,200&family=Shippori+Mincho+B1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap");
+body {
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: 400;
+  list-style: none;
+  text-decoration-style: none;
+  text-decoration: none; }
+
+.Menu {
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: 400;
+  color: white;
+  list-style: none;
+  text-decoration-style: none;
+  text-decoration: none; }
+
+.subti {
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  text-decoration-style: none;
+  text-decoration: none; }
+
+.subti2 {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 23px;
+  color: #ffff;
+  text-align: right;
+  margin-right: 30px;
+  justify-content: center;
+  align-content: center; }
+
+.subti3 {
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  text-decoration: none;
+  color: #ffff;
+  text-align: right;
+  margin-right: 10px; }
+
+.subti4 {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration: none;
+  color: #2C3C5C;
+  text-align: center; }
+
+.bla {
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: 100;
+  list-style: none;
+  text-decoration-style: none;
+  text-decoration: none; }
+
+.type-bold {
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: 700; }
+
+.type-extra-bold {
+  font-family: "Noto Sans SC", sans-serif;
+  font-weight: 800; }
+
+.container {
+  background-color: #296073;
+  height: 40px;
+  justify-content: center;
+  align-content: center;
+  text-align: right;
+  border-radius: 2px; }
+
+.container2 {
+  background-color: #296073;
+  height: 40px;
+  justify-content: center;
+  align-content: center;
+  text-align: right;
+  width: 90%;
+  border-radius: 2px; }
+
+@media all and (min-width: 760px) {
+  #B1 {
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px; }
+    #B1 h1 {
+      font-family: 'Codystar';
+      color: #272B34;
+      font-size: 33px;
+      transform: rotate(90deg);
+      text-transform: uppercase; } }
+
+@media all and (max-width: 759px) {
+  #B1 {
+    display: block;
+    float: center;
+    margin-top: 10px;
+    margin-botto: 30px; }
+    #B1 h1 {
+      font-family: 'Codystar';
+      color: #272B34;
+      font-size: 23px;
+      transform: rotate(0deg);
+      text-transform: uppercase; } }
+
+h2 {
+  font-family: 'poppins';
+  color: #272B34;
+  font-size: 20px;
+  margin-top: 50px; }
+
+h3 {
+  font-family: 'Codystar';
+  color: #272B34;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+@media all and (min-width: 760px) {
+  body {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Josefina Slab', Shippori Mincho, Poppins;
+    font-weight: 300, 400, 500; }
+  /*NavBar Superior*/
+  header {
+    max-height: 100px;
+    width: 100%;
+    background-color: #F6F6F6;
+    color: white;
+    align-content: stretch;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #ccc;
+    margin: 0; }
+    header .Menu {
+      padding: 3px 0;
+      box-sizing: border-box;
+      position: sticky;
+      text-decoration: none;
+      list-style: none;
+      text-decoration-style: none;
+      width: 95%;
+      display: flex;
+      justify-content: space-between; }
+      header .Menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        list-style: none;
+        margin-right: 3px;
+        margin-top: 50px;
+        font-family: poppins;
+        color: black;
+        max-width: 90%; }
+        header .Menu ul li {
+          padding: 2px;
+          text-align: right;
+          text-decoration: none;
+          list-style: none; }
+          header .Menu ul li a {
+            text-decoration: none;
+            font-size: 16px;
+            padding: 1px;
+            margin-right: 30px;
+            list-style: none;
+            color: gray; }
+    header .Logo {
+      display: flex;
+      flex-direction: row;
+      min-width: 120px;
+      justify-content: flex-start;
+      margin-left: 40px;
+      position: sticky; }
+    header img {
+      width: 100%;
+      margin-top: 15px; } }
+
+@media all and (max-width: 759px) {
+  body {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: stretch; }
+  header {
+    max-height: 130px;
+    width: 100%;
+    background-color: #F6F6F6;
+    color: white;
+    align-content: stretch;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #ccc; }
+    header .Menu {
+      padding: 2px 0;
+      box-sizing: border-box;
+      position: sticky;
+      text-decoration: none;
+      list-style: none;
+      text-decoration-style: none;
+      width: 98%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end; }
+      header .Menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-top: 20px;
+        font-family: "Noto Sans SC", sans-serif;
+        color: black;
+        width: 96%; }
+        header .Menu ul li {
+          padding: 1px;
+          text-decoration: none;
+          list-style: none; }
+          header .Menu ul li a {
+            text-decoration: none;
+            font-size: 8px;
+            margin-right: 4px;
+            list-style: none;
+            color: gray; }
+    header .Logo {
+      max-width: 400px;
+      float: left;
+      margin-left: 15px;
+      position: sticky; }
+    header img {
+      width: 100%;
+      margin-top: 10px; } }
+
+/*Fin NavBar superior*/
+/*Contenido*/
+@media all and (min-width: 760px) {
+  .sec2 {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 50px; }
+    .sec2 .F1 {
+      display: block;
+      justify-content: center;
+      align-content: center;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-left: 70px; }
+    .sec2 #His {
+      display: block;
+      text-align: left;
+      justify-content: center;
+      align-items: center;
+      margin-left: 50px;
+      max-width: 400px;
+      line-height: 25px;
+      margin-top: 40px; } }
+
+/*Propiedades y servicios*/
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  margin-top: 60px;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto; }
+  .sec3 .anuncio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    width: 95%;
+    margin-left: 65px; }
+    .sec3 .anuncio .bloque {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 95%;
+      justify-content: center;
+      align-items: center; }
+      .sec3 .anuncio .bloque .fotos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: left;
+        width: 60%; }
+        .sec3 .anuncio .bloque .fotos img {
+          display: inline-flex;
+          padding: 2px;
+          border-radius: 15px;
+          width: 90%; }
+      .sec3 .anuncio .bloque .elementos {
+        display: block;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 20px;
+        width: 20%, button;
+          width-width: 220px;
+          width-height: 20px;
+          width-border: 1px;
+          width-border-radius: 5px;
+          width-font-size: 14px;
+          width-background: linear-gradient(to bottom, #FD6506, #EFA016);
+          width-color: #FFFFFF;
+          width-text-align: center;
+          width-padding: 2px;
+          width-text-decoration: none;
+          width-justify-content: center; }
+        .sec3 .anuncio .bloque .elementos .contenedor {
+          display: block;
+          justify-content: center;
+          align-content: center;
+          margin-top: 15px; }
+          .sec3 .anuncio .bloque .elementos .contenedor .ver {
+            display: block; }
+            .sec3 .anuncio .bloque .elementos .contenedor .ver a {
+              text-decoration: none;
+              color: white; }
+
+@media all and (max-width: 759px) {
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-content: stretch;
+    width: 100%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto; }
+    .sec2 .F1 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto; }
+      .sec2 .F1 img {
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px; }
+    .sec2 #His {
+      display: block;
+      justify-content: stretch;
+      align-content: stretch;
+      width: 90%;
+      font-size: 15px;
+      line-height: 17px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 50px;
+      text-align: center; }
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin-top: 60px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .sec3 .anuncio {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin-top: 50px;
+      width: 95%;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      margin-left: 40px; }
+      .sec3 .anuncio .bloque {
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center; }
+        .sec3 .anuncio .bloque .fotos {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: center;
+          width: 80%; }
+          .sec3 .anuncio .bloque .fotos img {
+            display: inline-flex;
+            padding: 2px;
+            border-radius: 15px;
+            width: 90%; }
+        .sec3 .anuncio .bloque .elementos {
+          display: block;
+          justify-content: stretch;
+          align-content: stretch;
+          align-items: stretch;
+          margin-top: 9px;
+          margin-left: 0;
+          width: 95%; }
+          .sec3 .anuncio .bloque .elementos .subti2 {
+            font-size: 14px;
+            text-align: left; }
+          .sec3 .anuncio .bloque .elementos button {
+            width: 90px;
+            height: 20px;
+            border: 1px;
+            border-radius: 3px;
+            font-size: 11px;
+            background: linear-gradient(to bottom, #FD6506, #EFA016);
+            color: #FFFFFF;
+            text-align: center;
+            padding: 2px;
+            text-decoration: none;
+            justify-content: center; }
+          .sec3 .anuncio .bloque .elementos .contenedor {
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            margin-top: 7px; }
+            .sec3 .anuncio .bloque .elementos .contenedor .ver {
+              display: inline-block; } }
+
+@media all and (min-width: 576px) {
+  .sec4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    width: 95%;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center; }
+  #In {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    width: 95%;
+    margin-left: 60px; }
+    #In .izq {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 40%;
+      margin-right: 10px;
+      margin-left: 20px; }
+      #In .izq p {
+        display: block;
+        text-align: right;
+        align-content: left;
+        justify-content: left;
+        padding: 1px; }
+      #In .izq #Bu {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        line-height: 15px;
+        color: white;
+        text-decoration: none;
+        box-sizing: border-box;
+        padding: 5 10px;
+        cursor: pointer;
+        border: 1px;
+        margin-top: 10px;
+        background: linear-gradient(to bottom, #e1f5fe 0%, #4fc3f7 100%); }
+        #In .izq #Bu a {
+          text-decoration: none;
+          color: white; }
+    #In .der {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: right;
+      justify-content: center; }
+      #In .der #I1 {
+        display: block;
+        width: 300px;
+        justify-content: center;
+        align-items: center; }
+      #In .der img {
+        width: 90%;
+        align-items: right;
+        justify-content: right;
+        border-radius: 15px; }
+  /*Fin Propiedades y servicios*/
+  /*Formulario*/
+  #cont {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-bottom: 130px;
+    align-content: center;
+    padding: 20px;
+    height: 200px; }
+    #cont .fondoform {
+      width: 70%;
+      margin-left: 100px;
+      height: 80px;
+      background-image: url("../Media/cont.jpg");
+      background-repeat: none;
+      background-size: cover;
+      background-position: center;
+      margin-top: 70px;
+      padding: 20px;
+      border: 1px solid #ccc; }
+      #cont .fondoform button {
+        margin-left: 60px; }
+    #cont .modal-content {
+      padding: 3px; }
+  #Dir {
+    width: 100%;
+    margin-top: 90px;
+    border-top: 2px solid #ccc #2891B5;
+    border-bottom-style: solid 2px #ccc #2891B5;
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    background-size: 100%;
+    background-position: center; }
+  .locali {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    text-align: right;
+    padding: 20px; }
+    .locali .Mapa {
+      justify-content: right;
+      margin-top: 30px; }
+  footer {
+    height: 80px;
+    width: 100%;
+    background-color: #363C49;
+    background-size: 100%;
+    background-position: center;
+    justify-content: stretch;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    border-top: 1px solid #ccc; }
+    footer .Bajada {
+      justify-content: center;
+      text-align: center;
+      color: white;
+      margin-top: 15px; } }
+
+@media all and (max-width: 575px) {
+  /*Propiedades y servicios*/
+  .sec4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+  #In {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+    min-width: 90%; }
+    #In .izq {
+      display: block;
+      width: 100%; }
+      #In .izq p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        justify-content: center;
+        align-content: center; }
+      #In .izq #Bu {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        line-height: 20px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        padding: 5 20px;
+        cursor: pointer;
+        border: 1px;
+        margin-top: 15px;
+        background: linear-gradient(to bottom, #e1f5fe 0%, #4fc3f7 100%); }
+        #In .izq #Bu a {
+          text-decoration: none;
+          color: white; }
+  .der {
+    display: block;
+    width: 95%;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center; }
+    .der #I1 {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      align-content: center;
+      padding-bottom: 20px; }
+  /*Fin Propiedades y servicios*/
+  #cont {
+    width: 85%;
+    margin-top: 10px;
+    align-content: center;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 80px; }
+    #cont .subti3 {
+      font: 12px;
+      text-align: center; }
+    #cont .fondoform {
+      width: 90%;
+      margin-left: 30px;
+      background-image: url("../Media/cont.jpg");
+      background-repeat: none;
+      background-size: cover;
+      background-position: center;
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc; }
+      #cont .fondoform .text {
+        font-size: 12px;
+        font-family: arial;
+        line-height: 20px;
+        padding: 5px; }
+  #Dir {
+    width: 100%;
+    margin-top: 100px;
+    border-top: 2px solid #ccc #2891B5;
+    border-bottom-style: solid 2px #ccc #2891B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F6F6F6;
+    background-size: cover; }
+  .locali {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: safe-right;
+    padding: 30px; }
+    .locali .Mapa {
+      justify-content: safe-right;
+      margin-top: 30px; }
+  footer {
+    height: 70px;
+    width: 100%;
+    background-color: #363C49;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    border-top: 1px solid #ccc; }
+    footer .Bajada {
+      justify-content: center;
+      text-align: center;
+      color: white;
+      margin-top: 15px; } }
+
+/*General*/
+.contenedor {
+  display: block;
+  margin-top: 20px; }
+  .contenedor .ver {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 17px;
+    background: linear-gradient(to bottom, #FD6506, #EFA016);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none; }
+    .contenedor .ver a {
+      text-decoration: none;
+      color: white; }
+
+button hover {
+  background: linear-gradient(to bottom, #4fc3f7, #e1f5fe 100%); }
+
+#In .tabla {
+  display: block;
+  width: 40%;
+  float: right;
+  margin-right: 2px;
+  margin-top: 0;
+  text-decoration: none;
+  font-size: 20px; }
+
+/*Fin General*/
+@media all and (min-width: 760px) {
+  body {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Josefina Slab', Shippori Mincho, Poppins;
+    font-weight: 300, 400, 500; }
+  /*NavBar Superior*/
+  header {
+    max-height: 100px;
+    width: 100%;
+    background-color: #F6F6F6;
+    color: white;
+    align-content: stretch;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #ccc;
+    margin: 0; }
+    header .Menu {
+      padding: 3px 0;
+      box-sizing: border-box;
+      position: sticky;
+      text-decoration: none;
+      list-style: none;
+      text-decoration-style: none;
+      width: 95%;
+      display: flex;
+      justify-content: space-between; }
+      header .Menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        list-style: none;
+        margin-right: 3px;
+        margin-top: 50px;
+        font-family: poppins;
+        color: black;
+        max-width: 90%; }
+        header .Menu ul li {
+          padding: 2px;
+          text-align: right;
+          text-decoration: none;
+          list-style: none; }
+          header .Menu ul li a {
+            text-decoration: none;
+            font-size: 16px;
+            padding: 1px;
+            margin-right: 30px;
+            list-style: none;
+            color: gray; }
+    header .Logo {
+      display: flex;
+      flex-direction: row;
+      min-width: 120px;
+      justify-content: flex-start;
+      margin-left: 40px;
+      position: sticky; }
+    header img {
+      width: 100%;
+      margin-top: 15px; } }
+
+@media all and (max-width: 759px) {
+  body {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: stretch; }
+  header {
+    max-height: 130px;
+    width: 100%;
+    background-color: #F6F6F6;
+    color: white;
+    align-content: stretch;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #ccc; }
+    header .Menu {
+      padding: 2px 0;
+      box-sizing: border-box;
+      position: sticky;
+      text-decoration: none;
+      list-style: none;
+      text-decoration-style: none;
+      width: 98%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end; }
+      header .Menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-top: 20px;
+        font-family: "Noto Sans SC", sans-serif;
+        color: black;
+        width: 96%; }
+        header .Menu ul li {
+          padding: 1px;
+          text-decoration: none;
+          list-style: none; }
+          header .Menu ul li a {
+            text-decoration: none;
+            font-size: 8px;
+            margin-right: 4px;
+            list-style: none;
+            color: gray; }
+    header .Logo {
+      max-width: 400px;
+      float: left;
+      margin-left: 15px;
+      position: sticky; }
+    header img {
+      width: 100%;
+      margin-top: 10px; } }
+
+/*Fin NavBar superior*/
+/*Contenido*/
+@media all and (min-width: 760px) {
+  .sec2 {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 50px; }
+    .sec2 .F1 {
+      display: block;
+      justify-content: center;
+      align-content: center;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-left: 70px; }
+    .sec2 #His {
+      display: block;
+      text-align: left;
+      justify-content: center;
+      align-items: center;
+      margin-left: 50px;
+      max-width: 400px;
+      line-height: 25px;
+      margin-top: 40px; } }
+
+/*Propiedades y servicios*/
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  margin-top: 60px;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto; }
+  .sec3 .anuncio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    width: 95%;
+    margin-left: 65px; }
+    .sec3 .anuncio .bloque {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 95%;
+      justify-content: center;
+      align-items: center; }
+      .sec3 .anuncio .bloque .fotos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: left;
+        width: 60%; }
+        .sec3 .anuncio .bloque .fotos img {
+          display: inline-flex;
+          padding: 2px;
+          border-radius: 15px;
+          width: 90%; }
+      .sec3 .anuncio .bloque .elementos {
+        display: block;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 20px;
+        width: 20%, button;
+          width-width: 220px;
+          width-height: 20px;
+          width-border: 1px;
+          width-border-radius: 5px;
+          width-font-size: 14px;
+          width-background: linear-gradient(to bottom, #FD6506, #EFA016);
+          width-color: #FFFFFF;
+          width-text-align: center;
+          width-padding: 2px;
+          width-text-decoration: none;
+          width-justify-content: center; }
+        .sec3 .anuncio .bloque .elementos .contenedor {
+          display: block;
+          justify-content: center;
+          align-content: center;
+          margin-top: 15px; }
+          .sec3 .anuncio .bloque .elementos .contenedor .ver {
+            display: block; }
+            .sec3 .anuncio .bloque .elementos .contenedor .ver a {
+              text-decoration: none;
+              color: white; }
+
+@media all and (max-width: 759px) {
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-content: stretch;
+    width: 100%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto; }
+    .sec2 .F1 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto; }
+      .sec2 .F1 img {
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px; }
+    .sec2 #His {
+      display: block;
+      justify-content: stretch;
+      align-content: stretch;
+      width: 90%;
+      font-size: 15px;
+      line-height: 17px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 50px;
+      text-align: center; }
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin-top: 60px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .sec3 .anuncio {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin-top: 50px;
+      width: 95%;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      margin-left: 40px; }
+      .sec3 .anuncio .bloque {
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center; }
+        .sec3 .anuncio .bloque .fotos {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: center;
+          width: 80%; }
+          .sec3 .anuncio .bloque .fotos img {
+            display: inline-flex;
+            padding: 2px;
+            border-radius: 15px;
+            width: 90%; }
+        .sec3 .anuncio .bloque .elementos {
+          display: block;
+          justify-content: stretch;
+          align-content: stretch;
+          align-items: stretch;
+          margin-top: 9px;
+          margin-left: 0;
+          width: 95%; }
+          .sec3 .anuncio .bloque .elementos .subti2 {
+            font-size: 14px;
+            text-align: left; }
+          .sec3 .anuncio .bloque .elementos button {
+            width: 90px;
+            height: 20px;
+            border: 1px;
+            border-radius: 3px;
+            font-size: 11px;
+            background: linear-gradient(to bottom, #FD6506, #EFA016);
+            color: #FFFFFF;
+            text-align: center;
+            padding: 2px;
+            text-decoration: none;
+            justify-content: center; }
+          .sec3 .anuncio .bloque .elementos .contenedor {
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            margin-top: 7px; }
+            .sec3 .anuncio .bloque .elementos .contenedor .ver {
+              display: inline-block; } }
+
+@media all and (min-width: 576px) {
+  .sec4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    width: 95%;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center; }
+  #In {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    width: 95%;
+    margin-left: 60px; }
+    #In .izq {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 40%;
+      margin-right: 10px;
+      margin-left: 20px; }
+      #In .izq p {
+        display: block;
+        text-align: right;
+        align-content: left;
+        justify-content: left;
+        padding: 1px; }
+      #In .izq #Bu {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        line-height: 15px;
+        color: white;
+        text-decoration: none;
+        box-sizing: border-box;
+        padding: 5 10px;
+        cursor: pointer;
+        border: 1px;
+        margin-top: 10px;
+        background: linear-gradient(to bottom, #e1f5fe 0%, #4fc3f7 100%); }
+        #In .izq #Bu a {
+          text-decoration: none;
+          color: white; }
+    #In .der {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: right;
+      justify-content: center; }
+      #In .der #I1 {
+        display: block;
+        width: 300px;
+        justify-content: center;
+        align-items: center; }
+      #In .der img {
+        width: 90%;
+        align-items: right;
+        justify-content: right;
+        border-radius: 15px; }
+  /*Fin Propiedades y servicios*/
+  /*Formulario*/
+  #cont {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-bottom: 130px;
+    align-content: center;
+    padding: 20px;
+    height: 200px; }
+    #cont .fondoform {
+      width: 70%;
+      margin-left: 100px;
+      height: 80px;
+      background-image: url("../Media/cont.jpg");
+      background-repeat: none;
+      background-size: cover;
+      background-position: center;
+      margin-top: 70px;
+      padding: 20px;
+      border: 1px solid #ccc; }
+      #cont .fondoform button {
+        margin-left: 60px; }
+    #cont .modal-content {
+      padding: 3px; }
+  #Dir {
+    width: 100%;
+    margin-top: 90px;
+    border-top: 2px solid #ccc #2891B5;
+    border-bottom-style: solid 2px #ccc #2891B5;
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    background-size: 100%;
+    background-position: center; }
+  .locali {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    text-align: right;
+    padding: 20px; }
+    .locali .Mapa {
+      justify-content: right;
+      margin-top: 30px; }
+  footer {
+    height: 80px;
+    width: 100%;
+    background-color: #363C49;
+    background-size: 100%;
+    background-position: center;
+    justify-content: stretch;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    border-top: 1px solid #ccc; }
+    footer .Bajada {
+      justify-content: center;
+      text-align: center;
+      color: white;
+      margin-top: 15px; } }
+
+@media all and (max-width: 575px) {
+  /*Propiedades y servicios*/
+  .sec4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+  #In {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+    min-width: 90%; }
+    #In .izq {
+      display: block;
+      width: 100%; }
+      #In .izq p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        justify-content: center;
+        align-content: center; }
+      #In .izq #Bu {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        line-height: 20px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        padding: 5 20px;
+        cursor: pointer;
+        border: 1px;
+        margin-top: 15px;
+        background: linear-gradient(to bottom, #e1f5fe 0%, #4fc3f7 100%); }
+        #In .izq #Bu a {
+          text-decoration: none;
+          color: white; }
+  .der {
+    display: block;
+    width: 95%;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center; }
+    .der #I1 {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      align-content: center;
+      padding-bottom: 20px; }
+  /*Fin Propiedades y servicios*/
+  #cont {
+    width: 85%;
+    margin-top: 10px;
+    align-content: center;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 80px; }
+    #cont .subti3 {
+      font: 12px;
+      text-align: center; }
+    #cont .fondoform {
+      width: 90%;
+      margin-left: 30px;
+      background-image: url("../Media/cont.jpg");
+      background-repeat: none;
+      background-size: cover;
+      background-position: center;
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc; }
+      #cont .fondoform .text {
+        font-size: 12px;
+        font-family: arial;
+        line-height: 20px;
+        padding: 5px; }
+  #Dir {
+    width: 100%;
+    margin-top: 100px;
+    border-top: 2px solid #ccc #2891B5;
+    border-bottom-style: solid 2px #ccc #2891B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F6F6F6;
+    background-size: cover; }
+  .locali {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: safe-right;
+    padding: 30px; }
+    .locali .Mapa {
+      justify-content: safe-right;
+      margin-top: 30px; }
+  footer {
+    height: 70px;
+    width: 100%;
+    background-color: #363C49;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    border-top: 1px solid #ccc; }
+    footer .Bajada {
+      justify-content: center;
+      text-align: center;
+      color: white;
+      margin-top: 15px; } }
+
+/*General*/
+.contenedor {
+  display: block;
+  margin-top: 20px; }
+  .contenedor .ver {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 17px;
+    background: linear-gradient(to bottom, #FD6506, #EFA016);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none; }
+    .contenedor .ver a {
+      text-decoration: none;
+      color: white; }
+
+button hover {
+  background: linear-gradient(to bottom, #4fc3f7, #e1f5fe 100%); }
+
+#In .tabla {
+  display: block;
+  width: 40%;
+  float: right;
+  margin-right: 2px;
+  margin-top: 0;
+  text-decoration: none;
+  font-size: 20px; }
+
+/*Fin General*/
+@media all and (min-width: 576px) {
+  body {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Josefina Slab', Shippori Mincho, Poppins;
+    font-weight: 300, 400, 500; }
+    body .titu {
+      font-size: 20px;
+      font-weight: 400; }
+    body .descripcion {
+      font-size: 16px;
+      font-weight: 300; } }
+
+@media all and (max-width: 575px) {
+  body {
+    width: 100%; }
+    body .titu {
+      font-size: 15px;
+      font-weight: 400; }
+    body .descripcion {
+      font-size: 12px;
+      font-weight: 300; } }
+
+/*html de anuncios en paginas*/
+#anuncioprop {
+  font-family: poppins;
+  width: 95%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
+  #anuncioprop .fot {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 60%; }
+    #anuncioprop .fot img {
+      align-content: center;
+      justify-content: center; }
+  #anuncioprop .text {
+    width: 95%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center; }
+    #anuncioprop .text .descripcion {
+      color: black;
+      font-style: normal;
+      text-decoration: none;
+      margin-top: 20px;
+      padding: 5px;
+      text-align: center;
+      margin-bottom: 35px; }
+  #anuncioprop button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #2792B6, #79C6DB);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    margin-bottom: 100px; }
+    #anuncioprop button hover {
+      background: linear-gradient(to bottom, #79C6DB, #2792B6 100%); }
+    #anuncioprop button a {
+      text-decoration: none;
+      color: white; }
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 90%; }
